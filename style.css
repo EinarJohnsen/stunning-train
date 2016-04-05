@@ -1,45 +1,44 @@
-			.demo-card-wide.mdl-card{
-                width: 100%;
-                background-color: lightgrey;
-            }
+.demo-card-wide.mdl-card{
+        width: 100%;
+        background-color: lightgrey;
+	
+}
+.fontsize123{
+     	font-size: 5px;
+	
+}
 
-            .fontsize123{
-            	font-size: 5px;
-            }
-
-            /*Making my columns responsive.*/
-            #content       
-			{
-			    font-size: .75em; /* 12/16 */
-			    width: 71.875%; /* 650/960 */
-			    max-width: 960px;
-			    text-align: left;
-			    margin: 0px auto; /*auto centers the container */
-			    padding: 3.84615384615385%; /* 25/650 */
-			    max-height: 70px;
-
-			}
+#content       
+	{
+	font-size: .75em;
+	 width: 71.875%; 
+	max-width: 960px;
+	text-align: left;
+	margin: 0px auto;
+	padding: 3.84615384615385%;
+	max-height: 70px;
+	}
 			  
-			.columns
-			{   
-			    -webkit-column-width: 11.5em; /* webkit, Safari, Chrome */
-			    column-width: 11.5em;
-			    min-height: 150px;
-			}
-			/*remove standard list and bullet formatting from ul*/
-			.columns ul 
-			{
-			    margin: 0;
-			    padding: 0;
-			    list-style-type: none;
-			}
-			/* correct webkit/chrome uneven margin on the first column*/
-			.columns ul li:first-child
-			{
-			    margin-top:0px;
-			}
+.columns
+	{   
+	-webkit-column-width: 11.5em;
+	column-width: 11.5em;
+	min-height: 150px;
+	}
+			
+.columns ul 
+	{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	}
+			
+.columns ul li:first-child
+	{
+	margin-top:0px;
+	}
 
-			.columns ul li{
-				font-size: 15px;
-				padding-top: 10%;
-			}
+.columns ul li{
+	font-size: 15px;
+	padding-top: 10%;
+	}
